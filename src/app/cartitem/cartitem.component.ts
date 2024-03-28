@@ -7,6 +7,7 @@ import { Cart } from '../Class/Cart';
 import { CartItemResponseDto } from '../Class/CartItemResponseDto';
 import { CartService } from '../service/cart.service';
 import { LoginService } from '../service/login.service';
+import { FormsModule } from '@angular/forms';
 
 
 @Component({

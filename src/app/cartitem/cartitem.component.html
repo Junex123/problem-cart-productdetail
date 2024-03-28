@@ -17,7 +17,7 @@
 			
               
 				
-				<div  class="cart-item cart-item--shopping-cart row">
+				<div  class="cart-item cart-item--shopping-cart row"  *ngFor="let cartItem of cartItems">
 					<div class="cart-item--wrapper" >
 						<div class="cart-item--details" >
 						<a class="cart-item--link cart-item--image-link" href="@cartItem.LineItem.AddedFromUrl()" >
